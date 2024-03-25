@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+
+
+
+:root {
+    --Light-green-100: #D9F8CD;
+    --Light-green-200: #C7F5B4;
+    --Light-green-600: #7AD555;
+    --Light-green-800: #4A8133;
+    --Light-green-900: #17380A;
+
+    /* Neutral-dark */
+    --Neutral-dark-800: #09080B;
+
+}
+
+
+button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+background: var(--Light-green-600);
+border-radius: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+color: var(--Light-green-900);
+border: 0px;
+}
+
+button:hover {
+background: #17380A;
+color: #7AD555;;
+
+}
+.container-navbar {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 100px;
+gap: 16px;
+max-width: 1440px;
+background: #FFFFFF;
+position: sticky;
+top: 0;
+}
+
+.navbar {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+width: 100%;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+list-style: none;
+}
+
+li {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+gap: 12px;
+align-items: center;
+padding: 8px 16px;
+}
+
+a.link-item {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+gap: 4px;
+align-items: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+color:var(--Neutral-dark-800);
+}
+
+a.link-item:hover {
+color:var(--Light-green-800)
+;
+
+}
+
+/* batas navbar */
+
+
+/* hero-banner */
+
+
+.container-hero {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 100px;
+gap: 16px;
+max-width: 1440px;
+/* height: 100vh; */
+overflow: hidden;
+}
+
+.wrapper {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 18px;
+width: 100%;
+height: auto;
+/* flex-wrap: wrap; */
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.contentleft {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 100%;
+/* gap: 24px; */
+height: auto;
+flex-grow: initial;
+
+}
+
+img.responsive {
+width: 100%;
+height: auto;
+}
+
+h1 {
+max-width: 655px;
+height: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 70px;
+color: #17380A;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+p {
+width: 507px;
+height: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #4A8133;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* batas hero banner */
+
+.cotainer-center {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 100px;
+gap: 32px;
+max-width: 1440px;
+height: auto;
+}
+
+.feature-wrapper {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+max-width: 1240px;
+height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1.center {
+width: 634px;
+height: 140px;
+text-align: center;
+}
+
+h3 {
+width: 265px;
+/* height: auto; */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+color: #000000;
+}
+
+p.center {
+max-width: 569px;
+height: 60px;
+text-align: center;
+}
+
+p.small {
+width: 265px;
+/* height: 48px; */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.list-card{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+}
+
+a.long-card {
+background: #D9F8CD;
+border-radius: 16px;
+width: 100%;
+height: auto;
+}
+
+a.long-card:hover {
+background:#C7F5B4;
+}
+
+.card-feature {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+max-width: 507px;
+height: 472px;
+}
+
+.card-feature-large {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px;
+gap: 24px;
+width: auto;
+height: 472px;
+}
+
+/* .img.large {
+    max-width: 280px;
+    width: auto;
+    object-fit: contain;
+} */
